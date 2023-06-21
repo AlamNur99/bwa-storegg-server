@@ -4,6 +4,7 @@ const {
   index
 } = require('./controller');
 
-router.get('/', index);
+/* GET home page. */
+router.get('/', index)
 
 module.exports = router;
